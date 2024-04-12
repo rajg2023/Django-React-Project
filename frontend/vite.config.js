@@ -10,6 +10,10 @@ export default defineConfig({
     exclude: [],
     loader: 'jsx',
   },
+
+  resolve: {
+    extensions: ['.js', '.jsx']
+  }
   
 
 })
